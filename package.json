@@ -10,6 +10,7 @@
   "types": "dist/src/index.d.ts",
   "scripts": {
     "compile": "tsc --declaration",
+    "compile-extbridge": "cd node_modules/puppeteer-extensionbridge && yarn build",
     "clean": "rimraf dist",
     "copyfiles": "copyfiles src/**/*.js dist",
     "precompile": "npm run clean && mkdir dist && npm run copyfiles",
@@ -64,7 +65,7 @@
     "import-fresh": "3.3.0",
     "inquirer": "8.0.0",
     "puppeteer": "^9.0.0",
-    "puppeteer-extensionbridge": "1.1.0",
+    "puppeteer-extensionbridge": "vasia123/puppeteer-extensionbridge",
     "puppeteer-interceptor": "2.2.0",
     "seedrandom": "3.0.5",
     "shift-parser": "7.0.3",

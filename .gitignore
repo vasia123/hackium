@@ -1,6 +1,5 @@
 node_modules
 .DS_Store
-dist/
 extensions/theme/Cached\ Theme.pak
 .cache
 .repl_history

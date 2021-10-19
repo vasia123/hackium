@@ -64,7 +64,7 @@
     "import-fresh": "3.3.0",
     "inquirer": "8.0.0",
     "puppeteer": "^9.0.0",
-    "puppeteer-extensionbridge": "vasia123/puppeteer-extensionbridge",
+    "puppeteer-extensionbridge": "github:vasia123/puppeteer-extensionbridge#f794fe39bc6784386e8a029b67a6f217dc4f0908",
     "puppeteer-interceptor": "2.2.0",
     "seedrandom": "3.0.5",
     "shift-parser": "7.0.3",
